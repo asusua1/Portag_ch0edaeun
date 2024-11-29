@@ -1,0 +1,21 @@
+body {
+    margin: 0; /* 기본 여백 제거 */
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: flex-start; /* 세로 방향은 상단 정렬 */
+    height: 100vh; /* 화면 높이를 100%로 설정 */
+    overflow-y: auto; /* 세로 스크롤을 가능하게 함 */
+    background-color: #f0f0f0; /* 배경색 (선택 사항) */
+}
+
+.image-container {
+    width: 100%; /* 이미지를 화면 크기에 맞게 가로 확장 */
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+}
+
+.image-container img {
+    width: auto; /* 가로 크기는 자동으로 유지 */
+    height: 100%; /* 세로 크기를 100%로 맞춰서 스크롤 가능하게 */
+    max-width: 100%; /* 이미지를 화면에 맞게 축소 */
+}
